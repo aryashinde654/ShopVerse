@@ -91,10 +91,10 @@ export const ProductFilters: React.FC<ProductFiltersProps> = ({
                 <input
                   type="number"
                   placeholder="Min"
-                  value={filters.priceRange?.[0] || ''}
+                  value={filters.priceRange?.[0] || 0}
                   onChange={(e) => {
                     const min = parseInt(e.target.value) || 0;
-                    const max = filters.priceRange?.[1] || 1000;
+                    const max = filters.priceRange?.[1] || 300000;
                     handlePriceRangeChange(min, max);
                   }}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm"
@@ -102,14 +102,17 @@ export const ProductFilters: React.FC<ProductFiltersProps> = ({
                 <input
                   type="number"
                   placeholder="Max"
-                  value={filters.priceRange?.[1] || ''}
+                  value={filters.priceRange?.[1] || 300000}
                   onChange={(e) => {
-                    const max = parseInt(e.target.value) || 1000;
+                    const max = parseInt(e.target.value) || 300000;
                     const min = filters.priceRange?.[0] || 0;
                     handlePriceRangeChange(min, max);
                   }}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm"
                 />
+              </div>
+              <div className="text-xs text-gray-500 mt-1">
+                Price range: ₹0 - ₹3,00,000
               </div>
             </div>
           </div>

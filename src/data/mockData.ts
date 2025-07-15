@@ -83,8 +83,8 @@ export const products: Product[] = [
     slug: 'iphone-15-pro',
     description: 'The most advanced iPhone yet with titanium design, A17 Pro chip, and pro camera system featuring 48MP main camera with 2x telephoto zoom.',
     shortDescription: 'Latest iPhone with titanium design and A17 Pro chip',
-    price: 82999,
-    comparePrice: 89999,
+    price: 134900,
+    comparePrice: 149900,
     sku: 'IPH15PRO',
     categoryId: '1-1',
     brand: 'Apple',
@@ -97,7 +97,7 @@ export const products: Product[] = [
     images: [
       {
         id: '1-1',
-        url: 'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'iPhone 15 Pro front view',
         sortOrder: 1,
         isPrimary: true
@@ -124,8 +124,8 @@ export const products: Product[] = [
     slug: 'samsung-galaxy-s24-ultra',
     description: 'Premium Android smartphone with S Pen, advanced AI features, and exceptional camera system with 200MP main sensor.',
     shortDescription: 'Flagship Samsung with S Pen and AI features',
-    price: 99999,
-    comparePrice: 109999,
+    price: 124999,
+    comparePrice: 139999,
     sku: 'SGS24U',
     categoryId: '1-1',
     brand: 'Samsung',
@@ -138,7 +138,7 @@ export const products: Product[] = [
     images: [
       {
         id: '2-1',
-        url: 'https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Samsung Galaxy S24 Ultra',
         sortOrder: 1,
         isPrimary: true
@@ -158,8 +158,8 @@ export const products: Product[] = [
     slug: 'google-pixel-8-pro',
     description: 'AI-powered smartphone with exceptional computational photography and pure Android experience with 7 years of updates.',
     shortDescription: 'Google flagship with advanced AI photography',
-    price: 74999,
-    comparePrice: 84999,
+    price: 84999,
+    comparePrice: 94999,
     sku: 'GP8PRO',
     categoryId: '1-1',
     brand: 'Google',
@@ -172,7 +172,7 @@ export const products: Product[] = [
     images: [
       {
         id: '3-1',
-        url: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Google Pixel 8 Pro',
         sortOrder: 1,
         isPrimary: true
@@ -206,7 +206,7 @@ export const products: Product[] = [
     images: [
       {
         id: '26-1',
-        url: 'https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'OnePlus 12',
         sortOrder: 1,
         isPrimary: true
@@ -362,46 +362,12 @@ export const products: Product[] = [
   // Electronics - Audio
   {
     id: '7',
-    name: 'Wireless Bluetooth Headphones',
-    slug: 'wireless-bluetooth-headphones',
-    description: 'Premium noise-cancelling wireless headphones with 30-hour battery life and superior sound quality.',
-    shortDescription: 'Premium wireless headphones with noise cancellation',
-    price: 24999,
-    comparePrice: 29999,
-    sku: 'WBH300',
-    categoryId: '1-3',
-    brand: 'SoundTech',
-    stockQuantity: 75,
-    isActive: true,
-    featured: false,
-    weight: 0.25,
-    rating: 4.6,
-    reviewCount: 89,
-    images: [
-      {
-        id: '7-1',
-        url: 'https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=800',
-        altText: 'Wireless headphones',
-        sortOrder: 1,
-        isPrimary: true
-      }
-    ],
-    specifications: {
-      'Battery Life': '30 hours',
-      'Connectivity': 'Bluetooth 5.3',
-      'Noise Cancellation': 'Active ANC',
-      'Weight': '250g'
-    },
-    createdAt: '2024-01-12T10:00:00Z'
-  },
-  {
-    id: '8',
     name: 'Sony WH-1000XM5',
     slug: 'sony-wh-1000xm5',
     description: 'Industry-leading noise canceling headphones with exceptional sound quality and comfort for audiophiles.',
     shortDescription: 'Sony flagship noise-canceling headphones',
-    price: 33999,
-    comparePrice: 37999,
+    price: 29999,
+    comparePrice: 34999,
     sku: 'SWH1000XM5',
     categoryId: '1-3',
     brand: 'Sony',
@@ -413,7 +379,7 @@ export const products: Product[] = [
     reviewCount: 267,
     images: [
       {
-        id: '8-1',
+        id: '7-1',
         url: 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Sony WH-1000XM5',
         sortOrder: 1,
@@ -429,7 +395,7 @@ export const products: Product[] = [
     createdAt: '2024-01-14T10:00:00Z'
   },
   {
-    id: '9',
+    id: '8',
     name: 'JBL Charge 5 Speaker',
     slug: 'jbl-charge-5-speaker',
     description: 'Portable Bluetooth speaker with powerful sound, waterproof design, and power bank feature for outdoor adventures.',
@@ -447,7 +413,7 @@ export const products: Product[] = [
     reviewCount: 198,
     images: [
       {
-        id: '9-1',
+        id: '8-1',
         url: 'https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'JBL Charge 5 Speaker',
         sortOrder: 1,
@@ -463,7 +429,7 @@ export const products: Product[] = [
     createdAt: '2024-01-11T10:00:00Z'
   },
   {
-    id: '28',
+    id: '9',
     name: 'boAt Airdopes 141',
     slug: 'boat-airdopes-141',
     description: 'True wireless earbuds with 42 hours playback, IPX4 water resistance, and instant voice assistant.',
@@ -481,8 +447,8 @@ export const products: Product[] = [
     reviewCount: 1456,
     images: [
       {
-        id: '28-1',
-        url: 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800',
+        id: '9-1',
+        url: 'https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'boAt Airdopes 141',
         sortOrder: 1,
         isPrimary: true
@@ -1318,7 +1284,7 @@ export const reviews: Review[] = [
   },
   {
     id: '4',
-    productId: '8',
+    productId: '7',
     reviewerName: 'Sneha Reddy',
     rating: 5,
     reviewText: 'Best noise-canceling headphones I\'ve ever owned. Worth every penny! Great for long flights.',
@@ -1336,7 +1302,7 @@ export const reviews: Review[] = [
   },
   {
     id: '6',
-    productId: '28',
+    productId: '9',
     reviewerName: 'Ananya Gupta',
     rating: 4,
     reviewText: 'Great value for money! Sound quality is impressive for the price. Battery life is excellent.',

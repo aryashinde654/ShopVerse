@@ -62,7 +62,7 @@ export const CategoryPage: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex gap-8">
           {/* Filters Sidebar */}
-          <div className="hidden lg:block w-64 flex-shrink-0">
+          <div className="hidden lg:block w-80 flex-shrink-0">
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
               <ProductFilters
                 filters={filters}
@@ -73,15 +73,6 @@ export const CategoryPage: React.FC = () => {
               />
             </div>
           </div>
-
-          {/* Mobile Filters */}
-          <ProductFilters
-            filters={filters}
-            onFilterChange={handleFilterChange}
-            onClearFilters={handleClearFilters}
-            isOpen={isFilterOpen}
-            onClose={() => setIsFilterOpen(false)}
-          />
 
           {/* Main Content */}
           <div className="flex-1">
@@ -133,6 +124,15 @@ export const CategoryPage: React.FC = () => {
             )}
           </div>
         </div>
+
+        {/* Mobile Filters */}
+        <ProductFilters
+          filters={filters}
+          onFilterChange={handleFilterChange}
+          onClearFilters={handleClearFilters}
+          isOpen={isFilterOpen}
+          onClose={() => setIsFilterOpen(false)}
+        />
       </div>
     </div>
   );

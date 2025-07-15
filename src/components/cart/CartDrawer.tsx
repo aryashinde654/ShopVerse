@@ -63,7 +63,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
                     <h3 className="text-sm font-medium text-gray-900 line-clamp-2">
                       {item.product.name}
                     </h3>
-                    <p className="text-sm text-gray-500 mt-1">${item.product.price}</p>
+                    <p className="text-sm text-gray-500 mt-1">₹{item.product.price.toLocaleString()}</p>
                     
                     <div className="flex items-center justify-between mt-2">
                       <div className="flex items-center space-x-2">
@@ -101,7 +101,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
           <div className="border-t border-gray-200 p-4 space-y-4 bg-gradient-to-r from-gray-50 to-blue-50 animate-fadeInUp">
             <div className="flex items-center justify-between text-lg font-semibold">
               <span>Total:</span>
-              <span>${state.total.toFixed(2)}</span>
+              <span>₹{state.total.toLocaleString()}</span>
             </div>
             
             <div className="space-y-2">

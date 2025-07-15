@@ -80,7 +80,7 @@ export const CartPage: React.FC = () => {
                       
                       <div className="flex items-center space-x-4">
                         <span className="text-lg font-bold text-gray-900">
-                          ${(item.product.price * item.quantity).toFixed(2)}
+                          ₹{(item.product.price * item.quantity).toLocaleString()}
                         </span>
                         <button
                           onClick={() => removeItem(item.id)}
@@ -104,7 +104,7 @@ export const CartPage: React.FC = () => {
               <div className="space-y-3 mb-6">
                 <div className="flex justify-between text-sm">
                   <span className="text-gray-600">Subtotal ({state.itemCount} items)</span>
-                  <span className="text-gray-900">${state.total.toFixed(2)}</span>
+                  <span className="text-gray-900">₹{state.total.toLocaleString()}</span>
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-gray-600">Shipping</span>
@@ -112,12 +112,12 @@ export const CartPage: React.FC = () => {
                 </div>
                 <div className="flex justify-between text-sm">
                   <span className="text-gray-600">Tax</span>
-                  <span className="text-gray-900">${(state.total * 0.08).toFixed(2)}</span>
+                  <span className="text-gray-900">₹{(state.total * 0.18).toLocaleString()}</span>
                 </div>
                 <div className="border-t border-gray-200 pt-3">
                   <div className="flex justify-between text-lg font-semibold">
                     <span className="text-gray-900">Total</span>
-                    <span className="text-gray-900">${(state.total * 1.08).toFixed(2)}</span>
+                    <span className="text-gray-900">₹{(state.total * 1.18).toLocaleString()}</span>
                   </div>
                 </div>
               </div>
