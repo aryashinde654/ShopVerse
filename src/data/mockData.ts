@@ -29,7 +29,7 @@ export const categories: Category[] = [
         name: 'Audio',
         slug: 'audio',
         description: 'Headphones, speakers, and audio equipment',
-        imageUrl: 'https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=800',
+        imageUrl: 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800',
         parentId: '1'
       }
     ]

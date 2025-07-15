@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { useEffect } from 'react';
 import { ProductGrid } from '../components/product/ProductGrid';
 import { ProductFilters } from '../components/product/ProductFilters';
 import { ProductSort } from '../components/product/ProductSort';
@@ -15,6 +16,11 @@ export const ProductsPage: React.FC = () => {
 
   const searchQuery = searchParams.get('search') || '';
   const categoryId = searchParams.get('category') || undefined;
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
 
   const { products, loading } = useProducts({
     searchQuery,

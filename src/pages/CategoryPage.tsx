@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 import { ProductGrid } from '../components/product/ProductGrid';
 import { ProductFilters } from '../components/product/ProductFilters';
 import { ProductSort } from '../components/product/ProductSort';
@@ -16,6 +17,11 @@ export const CategoryPage: React.FC = () => {
 
   const category = categories.find(c => c.slug === slug);
   const categoryId = category?.id;
+
+  // Scroll to top when component mounts or slug changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [slug]);
 
   const { products, loading } = useProducts({
     categoryId,

@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import { ShoppingBagIcon, TrashIcon } from '@heroicons/react/24/outline';
 import { useCart } from '../context/CartContext';
 
 export const CartPage: React.FC = () => {
   const { state, updateQuantity, removeItem, clearCart } = useCart();
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
 
   if (state.items.length === 0) {
     return (

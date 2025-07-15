@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import { StarIcon, ShoppingCartIcon, HeartIcon, ShareIcon } from '@heroicons/react/24/outline';
 import { StarIcon as StarIconSolid } from '@heroicons/react/24/solid';
 import { products, reviews } from '../data/mockData';
@@ -13,6 +14,11 @@ export const ProductDetailPage: React.FC = () => {
 
   const product = products.find(p => p.slug === slug);
   const productReviews = reviews.filter(r => r.productId === product?.id);
+
+  // Scroll to top when component mounts or slug changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [slug]);
 
   if (!product) {
     return (
