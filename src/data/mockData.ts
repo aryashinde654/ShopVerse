@@ -448,7 +448,7 @@ export const products: Product[] = [
     images: [
       {
         id: '9-1',
-        url: 'https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/8534088/pexels-photo-8534088.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'boAt Airdopes 141',
         sortOrder: 1,
         isPrimary: true
@@ -484,7 +484,7 @@ export const products: Product[] = [
     images: [
       {
         id: '10-1',
-        url: 'https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Men\'s premium jacket',
         sortOrder: 1,
         isPrimary: true
@@ -586,7 +586,7 @@ export const products: Product[] = [
     images: [
       {
         id: '29-1',
-        url: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Men\'s casual t-shirt',
         sortOrder: 1,
         isPrimary: true
@@ -622,7 +622,7 @@ export const products: Product[] = [
     images: [
       {
         id: '13-1',
-        url: 'https://images.pexels.com/photos/445109/pexels-photo-445109.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Women\'s designer dress',
         sortOrder: 1,
         isPrimary: true
@@ -690,7 +690,7 @@ export const products: Product[] = [
     images: [
       {
         id: '15-1',
-        url: 'https://images.pexels.com/photos/1485031/pexels-photo-1485031.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Women\'s skinny jeans',
         sortOrder: 1,
         isPrimary: true
@@ -862,7 +862,7 @@ export const products: Product[] = [
     images: [
       {
         id: '19-1',
-        url: 'https://images.pexels.com/photos/4226769/pexels-photo-4226769.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/6489663/pexels-photo-6489663.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Bamboo kitchen utensil set',
         sortOrder: 1,
         isPrimary: true
@@ -896,7 +896,7 @@ export const products: Product[] = [
     images: [
       {
         id: '20-1',
-        url: 'https://images.pexels.com/photos/8031918/pexels-photo-8031918.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Smart thermostat',
         sortOrder: 1,
         isPrimary: true
@@ -1000,7 +1000,7 @@ export const products: Product[] = [
     images: [
       {
         id: '21-1',
-        url: 'https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Professional yoga mat',
         sortOrder: 1,
         isPrimary: true
@@ -1102,7 +1102,7 @@ export const products: Product[] = [
     images: [
       {
         id: '24-1',
-        url: 'https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/4162438/pexels-photo-4162438.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Resistance band set',
         sortOrder: 1,
         isPrimary: true
@@ -1170,7 +1170,7 @@ export const products: Product[] = [
     images: [
       {
         id: '33-1',
-        url: 'https://images.pexels.com/photos/416717/pexels-photo-416717.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Treadmill for home',
         sortOrder: 1,
         isPrimary: true
@@ -1238,7 +1238,7 @@ export const products: Product[] = [
     images: [
       {
         id: '35-1',
-        url: 'https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=800',
+        url: 'https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&cs=tinysrgb&w=800',
         altText: 'Badminton racket set',
         sortOrder: 1,
         isPrimary: true

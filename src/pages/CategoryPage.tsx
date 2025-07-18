@@ -101,33 +101,6 @@ export const CategoryPage: React.FC = () => {
               loading={loading}
             />
 
-            {/* Subcategories */}
-            {category.children && category.children.length > 0 && (
-              <div className="mt-16">
-                <h2 className="text-2xl font-bold text-gray-900 mb-8">Subcategories</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {category.children.map((subcategory) => (
-                    <a
-                      key={subcategory.id}
-                      href={`/category/${subcategory.slug}`}
-                      className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow"
-                    >
-                      <div className="aspect-w-16 aspect-h-9">
-                        <img
-                          src={subcategory.imageUrl}
-                          alt={subcategory.name}
-                          className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
-                        />
-                        <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition-all duration-300" />
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <h3 className="text-white text-lg font-semibold">{subcategory.name}</h3>
-                        </div>
-                      </div>
-                    </a>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
         </div>
 
